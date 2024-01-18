@@ -3,7 +3,7 @@ content = document.querySelector(".content"),
  setAlarmBtn = document.querySelector('button'),
 selectMenu = document.querySelectorAll("select");
 let alarmTime, isAlarmSet,
-ringtone = new Audio("C:\\Users\\user\\Desktop\\learning\\digital clock\\files\\ringtone.mp3");
+ringtone = new Audio("ringtone.wav");
 
 
 // Populate hour and minute options dynamically
